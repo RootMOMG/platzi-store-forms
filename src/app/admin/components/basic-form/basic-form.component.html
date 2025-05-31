@@ -42,10 +42,10 @@
     <input type="date" formControlName="date"/>
   </p>
 
-  <p>
-    Phone: {{ ageField.value }}
-    <input type="number" formControlName="age"/>
-  </p>
+<p>
+  Age: {{ ageField.value }}
+  <input type="number" [formControl]="ageField"/>
+</p>
 
   <p>
     Category: {{ categoryField.value }}
